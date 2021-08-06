@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea Java Script U4 ej 1</title>
+</head>
+<body>
+    <script>
+        var pasos
+        pasos=prompt( 'Ingrese la cantidad de pasos a realizar para evaluar el metodo de transporte' )
+        if (pasos <=1000) { 
+            document.write(' Se le recomienda ir a pie ');
+        }
+        else if (pasos >1000 && pasos <=10000) {
+            document.write(' Se le recomienda ir en bicicleta ');
+        } 
+        else if (pasos >10000 && pasos <=30000) {  
+            document.write(' Se le recomienda ir en colectivo ');
+        }
+        else if (pasos >30000 && pasos <=100000) {  
+            document.write(' Se le recomienda ir en auto ');
+        }
+        else if (pasos >100000) {  
+            document.write(' Se le recomienda ir en avion ');
+        }
+    </script>
+</body>
+</html>
